@@ -6,8 +6,8 @@ import java.io.*;
 public class Main {
     public static void main(String args[]) throws Exception {
 // Call static method to resize an image to 200 pixels width
-        String result_message = resize("F:\\DSA\\ImageResize\\src\\flower.jpg",
-                "F:\\DSA\\ImageResize\\src\\flowerRe.jpg",200);
+        String result_message = resize("flower.jpg",
+                "flowerRe.jpg",200);
         System.out.println(result_message);
 
     }
